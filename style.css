@@ -1,0 +1,206 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+html{background-image: url("https://th.bing.com/th/id/R.b58ef939e9661b680179f37abd6ce8c4?rik=gj7q7IrzvPhaoA&riu=http%3a%2f%2fs1.picswalls.com%2fwallpapers%2f2014%2f08%2f16%2fglitter-wallpaper_072436602_203.jpg&ehk=Ob509ZtD2ghiEuNthwFKOW9JEcqnfIlnq4G%2f%2bSkZgN8%3d&risl=&pid=ImgRaw&r=0");
+background-color:#fae1dd;
+
+}
+body{
+background-color: rgba(254,177,215,0.5);
+font-family: 'Merriweather', serif;
+text-align: center;
+color: #8E0505;
+}
+/*
+body{margin: 0;
+  background-image: url("https://th.bing.com/th/id/R.b58ef939e9661b680179f37abd6ce8c4?rik=gj7q7IrzvPhaoA&riu=http%3a%2f%2fs1.picswalls.com%2fwallpapers%2f2014%2f08%2f16%2fglitter-wallpaper_072436602_203.jpg&ehk=Ob509ZtD2ghiEuNthwFKOW9JEcqnfIlnq4G%2f%2bSkZgN8%3d&risl=&pid=ImgRaw&r=0");
+  background-color:#fae1dd;
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 400;
+}
+*/
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
+header{
+  background: #48bfe3;
+}
+
+header::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logoImg {
+  float: left;
+  padding: 10px 0;
+}
+
+nav{
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+display: inline-block;
+margin-left: 70px;
+padding-top: 23px;
+
+position: relative;
+}
+
+nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+    color: #ffafcc
+;
+
+}
+
+nav a:hover{
+  color: #f15bb5;
+}
+
+nav ::before{
+  transition: all ease-in-out 200ms;
+content: '';
+display: block;
+background-color: #ffafcc;
+  position: absolute;
+height: 5px;
+width: 0%;
+top: 0:
+
+}
+
+nav a:hover::before{
+  width: 100%;
+
+}
+
+h1{ font-size: 50px;
+  text-align: center;
+  color: #f56fad;
+}
+
+h2{ text-align: center;
+  color: #c32bad;
+  font-size: 45px;
+}
+
+h1 { font-family: 'Festive', cursive;
+font-weight: bold;
+color: #02c39a;
+text-align: center;
+
+background-color: lavender;
+padding: 70px 60px 50px 80px;
+border: solid;
+margin: 50px 40px 20px 30px;
+}
+
+
+.about{
+  color: #ffd166;
+text-align: center;
+font-family: Papyrus;
+font-size: 60px;
+}
+
+#meImg{
+height: 300px;
+width: 300px;
+margin: 1px auto;
+display: block;
+}
+
+p {
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Festive', cursive;
+  color: #ff006e;
+}
+
+p{
+  background-color: #ffa69e;
+  padding: 70px 60px 50px 80px;
+  border: solid #00b2ca;
+  margin: 60px 45px 25px 30px;
+}
+
+/* Image Grid
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 5vw);
+    grid-gap: 15px;
+}
+
+.gallery__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.gallery__item--1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.gallery__item--2 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.gallery__item--3 {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 6;
+}
+
+.gallery__item--4 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 6;
+}
+
+.gallery__item--5 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 6;
+    grid-row-end: 9;
+}
+
+.gallery__item--6 {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 6;
+    grid-row-end: 9;
+}
+*/
+
+.GivingfoodImg{
+width: 300px;
+height: auto;
+display: inline block;
+padding: 5px;
+}
+
+.homelessnessImg{
+  padding: 5px;
+  width: 400px;
+  height: 350px;
+}
